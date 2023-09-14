@@ -1,0 +1,54 @@
+
+.playsec{
+    margin:1.3rem auto;
+    width:90%;
+    height:30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vid{
+    margin:0.2rem auto;
+    width:90%;
+}
+.chantick{
+    display: flex;
+    align-items: center;
+}
+.rt{
+    /* margin:1rem 1rem 0 10rem; */
+    margin-left: 5rem;
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+}
+.reactplayer{
+    /* margin:2rem 3rem 0 3rem; */
+}
+.vtit{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+.ct{
+    color: white;
+    margin-right: 0.7rem;
+}
+.ct:hover{
+    color: rgb(215, 211, 211);
+    cursor: pointer;
+}
+.st{
+    display: flex;
+    /* color: gray; */
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.likes{
+    font-size: 1rem;
+    color: rgb(179, 174, 174);
+}
+.relatedvideos{
+    display: flex;
+    flex-direction: column;
+}

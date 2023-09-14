@@ -1,0 +1,9 @@
+.sp{
+    color: white;
+}
+.spname{
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    /* margin:1rem 2rem; */
+}

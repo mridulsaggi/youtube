@@ -1,0 +1,50 @@
+.channelhai{
+    /* height:30rem; */
+    width:100%;
+    /* background-color:red; */
+    /* z-index: 10, */
+}
+.ig{
+    
+    height: 22rem;
+    width: 34rem;
+    border-radius: 1rem;
+    
+}
+.ti{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 22rem;
+    width: 85%;
+
+    margin:2rem  auto;
+}
+.subs{
+    margin: 1rem;
+    display: flex;
+}
+.subs p{
+    margin:0 0.5rem
+}
+.subtop{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+    flex-direction: column;
+}
+.videoi{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 2rem;
+    margin: 5rem auto;
+    width: 90%;
+
+}

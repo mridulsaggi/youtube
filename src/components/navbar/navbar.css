@@ -1,0 +1,122 @@
+.img1{
+    height:2rem;
+    width:3rem;
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration: none;
+    /* color: white; */
+}
+.icon{
+    color: azure;
+}
+.item{
+    margin:0 4rem;
+}
+.navbar{
+    position: sticky;
+    border:.1rem solid black;
+    display: flex;
+    margin-top:1rem;
+    justify-content:flex-start;
+    align-items: center;
+}
+.form{
+    width: 17rem;
+    border-radius: 1rem;
+    background-color: red;
+    border:.1rem solid white
+}
+.icon{
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.searching{
+    border-radius: 1rem 0 0 1rem;
+    display: flex;
+    height:3rem;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width:30rem;
+}
+.bttn{
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+}
+.log{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 0.7rem;
+    margin: 0 1rem;
+    height: 2rem;
+    background-color: rgb(236, 238, 240);
+    width: 6rem;
+    color: rgb(0, 0, 0);
+}
+.log:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.search{
+    border-radius: 1rem 0 0 1rem;
+    
+    /* border-radius: 1rem; */
+    height:2rem;
+    width: 75%;
+    margin-right: 4px;
+    border:.1rem solid black;
+}
+.menubtn{
+    height: 2rem;
+    width: 2rem;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: none;
+
+}
+.choice{
+    display: flex;
+    width: 115px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+@media(max-width:776px){
+    .form{
+        width: 11rem;
+    }
+    .form input{
+        width: 70%;
+    }
+}
+@media (max-width:500px){
+    .choice{
+        display: block;
+    }
+    .choa{
+        
+    margin-top: 1rem;
+
+    }
+    .bttn{
+        display: none;
+    }
+}
+@media(max-width:400px){
+    .form{
+        width:7rem;
+    }
+    .form input{
+        width: 60%;
+    }
+    .form button{
+        width: 2rem;
+    }
+}
